@@ -29,5 +29,5 @@ To resize an image use the command-line tool `cvutils-resize`.
 ```bash
 cvutils -i <path to image> -w <required width> -ht <required height>
 ```
-*The resuting image is saved in the same directory as the input image with the suffix `-resized` added before the extension.
-*Height (`-ht`) is optional and is automatically calculated if width is set to zero.
+* The resuting image is saved in the same directory as the input image with the suffix `-resized` added before the extension.
+* Height (`-ht`) is optional and is automatically calculated if width is set to zero.
