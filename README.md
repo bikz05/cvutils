@@ -12,15 +12,15 @@ This repository contains useful utilities to ease the task of creating computer 
 1. From source
 ```bash
 git clone https://github.com/bikz05/cvutils.git
+cd cvutils
 python install setup.py
 ```
 
 2. From PyPI
 ```
 pip install cvutils
-
 ```
-You might need root access to install the package globally on Linux. Use the `sudo` prefix to solve this problem.
+_NOTE_ -- You might need root access to install the package globally on Linux. Use the `sudo` prefix to solve this problem.
 
 ## Command line tools
 
@@ -29,5 +29,5 @@ To resize an image use the command-line tool `cvutils-resize`.
 ```bash
 cvutils -i <path to image> -w <required width> -ht <required height>
 ```
-The resuting image is saved in the same directory as the input image with the suffix -resized added before the extension.
-Height (-ht) is optional and is automatically calculated if width is set to zero.
+*The resuting image is saved in the same directory as the input image with the suffix `-resized` added before the extension.
+*Height (`-ht`) is optional and is automatically calculated if width is set to zero.
