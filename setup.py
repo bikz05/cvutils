@@ -6,7 +6,7 @@ def readme():
 
 setup(name='cvutils',
       version='0.1',
-      description='The funniest joke in the world',
+      description='Utilites for Computer Vision and Image Processing',
       url='http://github.com/bikz05/bikz05/cvutils',
       download_url = 'https://github.com/bikz05/cvutils/tarball/0.1',
       author='Bikramjot Singh Hanzra',
