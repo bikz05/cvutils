@@ -1,4 +1,5 @@
-# cvutils
+### cvutils
+
 This repository contains useful utilities to ease the task of creating computer vision and image processing projects. A number of command line tool have also been added to make the project useful for general use.
 
 # REQUIREMENTS
@@ -7,7 +8,7 @@ This repository contains useful utilities to ease the task of creating computer 
 3. `matplotlib`
 4. `argparse`
 
-## INSTALLATION
+# INSTALLATION
 
 1. From source
 ```bash
@@ -22,7 +23,7 @@ pip install cvutils
 ```
 _NOTE_ -- You might need root access to install the package globally on Linux. Use the `sudo` prefix to solve this problem.
 
-## Command line tools
+# COMMAND LINE TOOLS
 
 1. Resizing an image
 To resize an image use the command-line tool `cvutils-resize`.

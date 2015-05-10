@@ -1,5 +1,5 @@
 cvutils
-=======
+~~~~~~~
 
 This repository contains useful utilities to ease the task of creating
 computer vision and image processing projects. A number of command line
@@ -14,7 +14,7 @@ REQUIREMENTS
 4. ``argparse``
 
 INSTALLATION
-------------
+============
 
 1. From source
 
@@ -33,8 +33,8 @@ INSTALLATION
    *NOTE* -- You might need root access to install the package globally
    on Linux. Use the ``sudo`` prefix to solve this problem.
 
-Command line tools
-------------------
+COMMAND LINE TOOLS
+==================
 
 1. Resizing an image To resize an image use the command-line tool
    ``cvutils-resize``.
