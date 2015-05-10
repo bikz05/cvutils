@@ -39,8 +39,8 @@ while True:
         exit()
         print "Program exiting without saving the image."
     elif key == ord('s'):
-	(impath, ext) = args["imagepath"].split('.')
-	impath_rz = impath + "_resized." + ext
-	cv2.imwrite(impath_rz, im_resize)
-	print "Image saved at --> {}".format(impath_rz) 
+        (impath, ext) = args["imagepath"].split('.')
+        impath_rz = impath + "-resized." + ext
+        cv2.imwrite(impath_rz, im_resize)
+        print "Image saved at --> {}".format(impath_rz) 
         exit()
