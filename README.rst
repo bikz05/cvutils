@@ -48,3 +48,15 @@ COMMAND LINE TOOLS
 -  Height (``-ht``) is optional and is automatically calculated if width
    is set to zero.
 
+2. Interactive Crop To crop an image use the command-line tool
+   ``cvutils-crop``.
+
+   .. code:: bash
+
+       cvutils-crop -i <path to image> 
+
+-  Multiple regions can also be cropped from the image using the script.
+-  Selected regions can also be undone by pressing the ``d`` key.
+-  To save the selects, press ``s`` key and to discard the selections
+   press the ``q`` key.
+
