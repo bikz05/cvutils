@@ -36,24 +36,26 @@ INSTALLATION
 COMMAND LINE TOOLS
 ------------------
 
-1. Resizing an image To resize an image use the command-line tool
-   ``cvutils-resize``.
+1. Resizing an image
 
-   .. code:: bash
+To resize an image use the command-line tool ``cvutils-resize``.
 
-       cvutils -i <path to image> -w <required width> -ht <required height>
+.. code:: bash
+
+    cvutils -i <path to image> -w <required width> -ht <required height>
 
 -  The resuting image is saved in the same directory as the input image
    with the suffix ``-resized`` added before the extension.
 -  Height (``-ht``) is optional and is automatically calculated if width
    is set to zero.
 
-2. Interactive Crop To crop an image use the command-line tool
-   ``cvutils-crop``.
+2. Interactive Crop
 
-   .. code:: bash
+To crop an image use the command-line tool ``cvutils-crop``.
 
-       cvutils-crop -i <path to image> 
+.. code:: bash
+
+    cvutils-crop -i <path to image> 
 
 -  Multiple regions can also be cropped from the image using the script.
 -  Selected regions can also be undone by pressing the ``d`` key.

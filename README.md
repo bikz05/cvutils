@@ -26,6 +26,7 @@ _NOTE_ -- You might need root access to install the package globally on Linux. U
 ## COMMAND LINE TOOLS
 
 1. Resizing an image
+
 To resize an image use the command-line tool `cvutils-resize`.
 ```bash
 cvutils -i <path to image> -w <required width> -ht <required height>
@@ -34,6 +35,7 @@ cvutils -i <path to image> -w <required width> -ht <required height>
 * Height (`-ht`) is optional and is automatically calculated if width is set to zero.
 
 2. Interactive Crop
+
 To crop an image use the command-line tool `cvutils-crop`.
 ```bash
 cvutils-crop -i <path to image> 
