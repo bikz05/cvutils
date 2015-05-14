@@ -36,7 +36,8 @@ INSTALLATION
 COMMAND LINE TOOLS
 ------------------
 
-1. Resizing an image
+Resizing an image
+~~~~~~~~~~~~~~~~~
 
 To resize an image use the command-line tool ``cvutils-resize``.
 
@@ -49,7 +50,8 @@ To resize an image use the command-line tool ``cvutils-resize``.
 -  Height (``-ht``) is optional and is automatically calculated if width
    is set to zero.
 
-2. Interactive Crop
+Interactive Crop
+~~~~~~~~~~~~~~~~
 
 To crop an image use the command-line tool ``cvutils-crop``.
 
