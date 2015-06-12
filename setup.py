@@ -5,11 +5,11 @@ def readme():
         return f.read()
 
 setup(name='cvutils',
-      version='0.2',
+      version='0.2.2',
       description='Utilites for Computer Vision and Image Processing',
       long_description=readme(),
       url='http://github.com/bikz05/bikz05/cvutils',
-      download_url = 'https://github.com/bikz05/cvutils/tarball/0.2',
+      download_url = 'https://github.com/bikz05/cvutils/archive/0.2.2',
       author='Bikramjot Singh Hanzra',
       author_email='bikz.05@gmail.com',
       license='MIT',
