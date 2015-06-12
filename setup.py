@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='cvutils',
-      version='0.1',
+      version='0.2',
       description='Utilites for Computer Vision and Image Processing',
       long_description=readme(),
       url='http://github.com/bikz05/bikz05/cvutils',
