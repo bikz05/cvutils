@@ -16,5 +16,5 @@ setup(name='cvutils',
       packages=['cvutils'],
       keywords=['computer vision', 'image procesing', ],
       install_requires=['matplotlib',],
-      scripts=['bin/cvutils-resize', 'bin/cvutils-crop',
+      scripts=['bin/cvutils-resize', 'bin/cvutils-crop'], 
       zip_safe=False)
